@@ -2,19 +2,21 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+   <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Asiya Yakhina</title>
+    <!-- CSS -->
+    <!-- Bootstrap core CSS -->
     <link href="../assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
     <!-- Font Awesome CSS -->
     <link href="../assets/css/font-awesome.min.css" rel="stylesheet" media="screen">
     <!-- Elegant icons CSS -->
     <link href="../assets/css/simple-line-icons.css" rel="stylesheet" media="screen">
     <!--[if lte IE 7]>
-		<script src="assets/js/icons-lte-ie7.js"></script>
-	<![endif]-->
+        <script src="assets/js/icons-lte-ie7.js"></script>
+    <![endif]-->
     <!-- Magnific-popup lightbox -->
     <link href="../assets/css/magnific-popup.css" rel="stylesheet">
     <!-- Owl Carousel -->
@@ -25,7 +27,9 @@
     <!-- Custom styles CSS -->
     <link href="../assets/css/style.css" rel="stylesheet" media="screen">
     <link rel="shortcut icon" href="../favicon2.png">
-    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="../sss/sss.min.js"></script>
+    <link rel="stylesheet" href="../sss/sss.css" type="text/css" media="all">
     
     	<script type="text/javascript">
 setTimeout(function(){var a=document.createElement("script");
@@ -33,8 +37,12 @@ var b=document.getElementsByTagName("script")[0];
 a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0047/0335.js?"+Math.floor(new Date().getTime()/3600000);
 a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
 </script>
-
-
+    
+    <script>
+    jQuery(function($) {
+        $('.slider').sss();
+    });
+    </script>
 </head>
 
 <body>
@@ -65,7 +73,7 @@ a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
         <div class="row">
             <div class="col-sm-12 text-center">
                 <!-- Put your image here -->
-                <img src="../assets/images/brainstorming/brainstCover.png" alt="">
+                <img src="../assets/images/microsoft/splashCover.png" alt="">
             </div>
             <!-- .col -->
         </div>
@@ -74,60 +82,65 @@ a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
             <div class="row">
                 <div class="col-sm-12">
                     <div class="popup-header">
-                        <h2 class="popup-title">Brainstorm Facilitation</h2>
+                        <h2 class="popup-title">Game Design Project</h2>
                         <div class="popup-subtitle">
-                            Using design thinking principles to lead creative ideation meetings
+                            UX design internship at Microsoft
                         </div>
                         <div class="popup-line"></div>
                     </div>
-                    <p> <b>My role:</b> planning and facilitating brainstorming sessions, designing value maps, presentation templates, and brainstorming cards, documenting the results of brainstorming sessions in comprehensive reports.
-                    </p>
-                    <p>During one of my semesters at <a href "http://mobile.mit.edu/" target="_blank">Mobile Experience Lab</a> at MIT, I organized brainstorming sessions for the lab members, as well as for outside clients such as <a href="http://www.generalsensing.com/#home-3" target="_blank">General Sensing</a> and <a href="http://www.jaguarusa.com/index.html" target="_blank">Jaguar</a>. I worked on creating an environment that is conducive to a productive ideation process by helping the participants engage in discussion, and get inspired by their surroundings and each other.</p>
-                    <p>One type of material that we designed individually for various clients, is a value map. The purpose of this template is to help participants focus on the customer during the ideation process and document their ideas in a comprehensive readable form:
-                    </p>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12 text-center">
-                <!-- Put your image here -->
-                <img src="../assets/images/brainstorming/valuemap.png" alt="">
-            </div>
-            <!-- .col -->
-        </div>
-        <div class="popup-contentBtnPar">
             <div class="row">
                 <div class="col-sm-12">
-                    <p>
-                        After the participants are done brainstorming, they can use this presentation template to document a particular idea and use it for presentation after the ideation process is finished:
+                   <p> <b>My role:</b> designing the game mechanics, prototyping interaction, designing user workflows, designing the character and the game story, designing and producing visual assets for the game, user-testing.
                     </p>
+
+                    <p>I worked on this project as a UX+UI designer along with four developers and a project manager. Throughout the internship we used agile scrum development methodology which entailed sprint planning, task weighting and delivering end-to-end user experiences at the end of each sprint.
+                    </p>
+                  
+
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12 text-center">
-                <!-- Put your image here -->
-                <img src="../assets/images/brainstorming/template.png" alt="">
-            </div>
-            <!-- .col -->
-        </div>
-        <div class="popup-contentBtnPar">
             <div class="row">
                 <div class="col-sm-12">
-                    <p>
-                        We also designed 6x4" brainstorming cards intended to help participants cluster various entities such as potential customers, contexts, or technologies into situations or problems that need to be solved by their product:
+                    <div class="headerUnderText">
+                        <h4 class="popup-title">Final Outcome</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <p>Over twelve weeks we designed and developed a gesture-controlled mobile game thereby taking the project from a mere idea to the version that was ready to be shipped to the store. 
                     </p>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-sm-12 text-center">
-                <!-- Put your image here -->
-                <img src="../assets/images/brainstorming/cards.png" alt="">
+      <div class="row">
+            <div class="col-sm-12">
+                <div class="slider" id="gameSlider">
+                    <img src="../assets/images/microsoft/1.jpeg" />
+                    <img src="../assets/images/microsoft/2.jpeg" />
+                    <img src="../assets/images/microsoft/3.jpeg" />
+                    <img src="../assets/images/microsoft/4.jpeg" />
+            
+                </div>
             </div>
-            <!-- .col -->
         </div>
+            <div class="popup-content">
+            <div class="row">
+<div class="col-sm-12">
+                   <p> The <a href="https://www.microsoft.com/en-us/store/games/fycpt/9nblggh1z3c5#app-details">beta version</a> has been released on the Microsoft Store, and has been mentioned in the <a href ="http://wmpoweruser.com/microsoft-is-testing-a-game-for-the-microsoft-band-in-the-windows-mobile-store/">following article</a>. Because the final version of the game hasn’t been published yet, I cannot disclose more details but will be able to go over my design process in person.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- .row -->
     </div>
+
+
+
     <div class="row">
         <div class="col-sm-12">
             <div class="popup-headerWork">
@@ -136,7 +149,7 @@ a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
         </div>
     </div>
     <ul class="portfolio-items-container">
-       <li class="portfolio-item" data-groups="all video">
+           <li class="portfolio-item" data-groups="all video">
                 <figure>
                     <img src="../assets/images/arcelik/istiklalTile.png" alt="">
                     <figcaption>
@@ -244,6 +257,7 @@ a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
                     </figcaption>
                 </figure>
             </li>
+
     </ul>
     <div class="popup-content3030" style="text-align: center">
         <div class="row">
