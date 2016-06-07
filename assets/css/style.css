@@ -753,6 +753,16 @@ transition: opacity 0.35s ease-out .25s, transform 0.35s ease-in .25s;
 	margin-bottom: 0px;
 }
 
+.white-popup-blockSection {
+position: relative;
+	background: #fff;
+	text-align: left;
+	max-width: 940px;
+	margin: 40px auto;
+	margin-bottom: 0px;
+	margin-bottom: 0px;
+}
+
 .mfp-bg {
 	background: #000;
 	opacity: 0.97;
@@ -1263,6 +1273,11 @@ padding-top: 20px;
 		margin: 80px auto;
 	}
 
+	.white-popup-blockSection {
+	margin: 80px auto;
+
+}
+
 	button.mfp-close {
 		position: absolute;
 		right: 50%;
@@ -1306,6 +1321,16 @@ padding-top: 20px;
 	margin-bottom: 0px;
 	margin-top: 30px;
 }
+
+	.white-popup-blockSection {
+			position: relative;
+	background: #fff;
+	text-align: left;
+	max-width: 940px;
+	margin: 40px auto;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	}
 
 	.portfolio-items-container .portfolio-item {
 		width: 100%;
@@ -1370,6 +1395,18 @@ body {
 	margin-bottom: 0px;
 	margin-top: 20px;
 }
+
+.white-popup-blockSection {
+	position: relative;
+	background: #fff;
+	text-align: left;
+	max-width: 940px;
+	margin: 40px auto;
+	margin-bottom: 0px;
+	margin-top: 0px;
+
+}
+
 .white-popup-block2 {
 padding-top: 10px;
 }
@@ -1385,7 +1422,7 @@ padding-top: 10px;
 
 	h1 {
 		font-size: 28px;
-		letter-spacing: 2px;
+		letter-spacing: 2
 		text-align: left;
 	}
 
@@ -1438,6 +1475,10 @@ font-size: 13px;
 	padding-bottom: 0px;
 }
 
+.popup-contentSection {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
 
 .popup-contentBtnPar {
 	padding-top: 15px;
