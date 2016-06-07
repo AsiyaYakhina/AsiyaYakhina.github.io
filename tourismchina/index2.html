@@ -42,6 +42,21 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
     <script src="../sss/sss.min.js"></script>
     <link rel="stylesheet" href="../sss/sss.css" type="text/css" media="all">
+
+
+     <script>
+    var myVideo = document.getElementById('video');
+    if (typeof myVideo.loop == 'boolean') { // loop supported
+        myVideo.loop = true;
+    } else { // loop property not supported
+        myVideo.on('ended', function() {
+            this.currentTime = 0;
+            this.play();
+        }, false);
+    }
+    myVideo.play();
+    </script>
+    
     
         <script type="text/javascript">
 setTimeout(function(){var a=document.createElement("script");
