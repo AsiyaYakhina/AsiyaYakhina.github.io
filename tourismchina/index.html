@@ -42,6 +42,21 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
     <script src="../sss/sss.min.js"></script>
     <link rel="stylesheet" href="../sss/sss.css" type="text/css" media="all">
+
+
+     <script>
+    var myVideo = document.getElementById('video');
+    if (typeof myVideo.loop == 'boolean') { // loop supported
+        myVideo.loop = true;
+    } else { // loop property not supported
+        myVideo.on('ended', function() {
+            this.currentTime = 0;
+            this.play();
+        }, false);
+    }
+    myVideo.play();
+    </script>
+
     
         <script type="text/javascript">
 setTimeout(function(){var a=document.createElement("script");
@@ -58,9 +73,6 @@ a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
 
 
     </head>
-    
-
-
 
 <body>
     <header class="header">
@@ -85,8 +97,7 @@ a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
             </div>
             <!-- .container -->
         </nav>
-  e  </header>
-
+    </header>
     <div id="custom-content" class="white-popup-block">
         <div class="row">
             <div class="col-sm-12 text-center">
@@ -102,7 +113,8 @@ a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
                     <div class="popup-header">
                         <h2 class="popup-title">Concept Design Project</h2>
                         <div class="popup-subtitle">
-                            Innovating tourism in China with MIT Design Lab
+                    Innovating tourism in China with MIT Design Lab
+
                         </div>
                         <div class="popup-line"></div>
                     </div>
@@ -110,15 +122,322 @@ a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
             </div>
             <div class="row">
                 <div class="col-sm-12">
-                   <p> <b>My role:</b> Exploring common problems faced by tourists in China, brainstorming with the team to find potential solutions, contributing to concept definition and development, designing journey maps, designing end-to-end tourist experiences, wireframing interfaces designs, and creating interactive high-fidelity mockups of the interfaces.
+            <p> <b>My role:</b> Exploring common problems faced by tourists in China, brainstorming with the team to find potential solutions, contributing to concept definition and development, designing journey maps, designing end-to-end tourist experiences, wireframing interfaces designs, and creating interactive high-fidelity mockups of the interfaces.
 
                     </p>
-                  
 
                 </div>
             </div>
 
+           
+         
+              <div class="row">
+                <div class="col-sm-12">
+                    <div class="headerUnderText">
+                        <h4 class="popup-title">Deliverables</h4>
+                    </div>
+                </div>
+            </div>
             <div class="row">
+                <div class="col-sm-12">
+                    <p>Below are the final deliverables for three of the identified problems in the following aspects of tourist experiences: <b> shopping, transportation,</b> and <b>eating</b>.
+                    </p>
+                </div>
+            </div>
+  
+        </div>
+
+
+
+
+       <div class="container">
+            <!-- Top Navigation -->
+
+
+            <section>
+                <div class="tabs tabs-style-topline">
+                    <nav>
+                        <ul>
+                            <li><a href="#section-topline-1" class="icon icon-shop"><span>Shopping</span></a></li>
+                            <li><a href="#section-topline-2" class="icon icon-car"><span>Transportation</span></a></li>
+                            <li><a href="#section-topline-3" class="icon icon-coffee"><span>Eating</span></a></li>
+                            
+                        </ul>
+                    </nav>
+                    <div class="content-wrap">
+                        <section id="section-topline-1">
+
+
+ <div id="custom-content" class="white-popup-blockSection">
+
+  <div class="col-sm-12 text-center">
+              
+     <div class="popup-contentSection">
+
+    <div class="row">
+                <div class="col-sm-12">
+                    <div class="headerUnderText">
+                        <h4 class="popup-title">Shopping: Problem</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <p>Most tourists in China, particularly from the Western countries, have a hard time shopping at local markets in smaller cities like Anshun and Xinxian. They cannot converse with the sellers because of the language barrier. Moreover, they lack the cultural knowledge of how to bargain - something that is extremely accepted and widely common in Asian shopping cultures.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+<div class="popup-contentSection">
+
+       <div class="row">
+                <div class="col-sm-12">
+                    <div class="headerUnderText">
+                        <h4 class="popup-title">Solution: bargaining assistant</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <p>A mobile app that teaches tourists how to bargain and then guides them through the process - ensuring a fun experience and a good deal.
+                    </p>
+                </div>
+            </div>
+</div>
+
+  <video controls muted id="video" width="100%" height="auto" autoplay="true" loop="true">
+                    <source src="bargain2Vid.mp4" type="video/mp4">
+                    <source src="bargain2Vid.ogg" type="video/ogg"> Your browser does not support the video tag.
+                </video>
+
+<div class="row">
+                <div class="col-sm-12">
+                    <div class="headerUnderText">
+                        <h4 class="popup-title">Interface designs</h4>
+                    </div>
+                </div>
+            </div>
+
+ 
+
+     <div class="row">
+                <div class="col-sm-12 text-center">
+                    <!-- Put your image here -->
+                    <img src="../assets/images/tourismchina/shopping.png" alt="">
+                </div>
+                <!-- .col -->
+            </div>
+        </div>
+
+
+
+    <div class="popup-contentBut">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <a href ="https://projects.invisionapp.com/share/N67KW7HPZ#/screens/165227843_ShoppingBargaining" class="btn btn-custom-4">Interactive Prototype</a> </div>
+        </div>
+    </div>
+     
+ <video controls id="video" width="100%" height="auto">
+                    <source src="shoppingFull.mp4" type="video/mp4">
+                    <source src="shoppingFull.ogv" type="video/ogg"> Your browser does not support the video tag.
+                </video>
+
+
+</div>
+                        </section>
+
+
+    <!--                 end of first section               -->
+
+
+                        <section id="section-topline-2">
+
+
+
+ <div id="custom-content" class="white-popup-blockSection">
+
+  <div class="col-sm-12 text-center">
+              
+     <div class="popup-contentSection">
+
+    <div class="row">
+                <div class="col-sm-12">
+                    <div class="headerUnderText">
+                        <h4 class="popup-title">Transportaion: Problem</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <p>Because public transportation in smaller Chinese cities is not easy to access, tourists are often forced to rely on private taxis. It is difficult to know whether a given car is safe to get in or if the driver has a good record.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+<div class="popup-contentSection">
+
+       <div class="row">
+                <div class="col-sm-12">
+                    <div class="headerUnderText">
+                        <h4 class="popup-title">Solution: Lyft for private taxis</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <p>A mobile app that combinines real-time location with user-generated review data in a mobile interface that makes it easy for users to find information about, select and review private taxi operators.
+
+                    </p>
+                </div>
+            </div>
+</div>
+
+  <video controls muted id="video" width="100%" height="auto" autoplay="true" loop="true">
+                    <source src="transportShort.mp4" type="video/mp4">
+                    <source src="transportShort.ogg" type="video/ogg"> Your browser does not support the video tag.
+                </video>
+
+<div class="row">
+                <div class="col-sm-12">
+                    <div class="headerUnderText">
+                        <h4 class="popup-title">Interface designs</h4>
+                    </div>
+                </div>
+            </div>
+
+ 
+
+     <div class="row">
+                <div class="col-sm-12 text-center">
+                    <!-- Put your image here -->
+                    <img src="../assets/images/tourismchina/transport.png" alt="">
+                </div>
+                <!-- .col -->
+            </div>
+        </div>
+
+
+
+    <div class="popup-contentBut">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <a href ="https://invis.io/NE7L4J06S#/165379271_Transport_Private_Taxi-01" class="btn btn-custom-4">Interactive Prototype</a> </div>
+        </div>
+    </div>
+    
+     <video controls id="video" width="100%" height="auto">
+                    <source src="taxi.mp4" type="video/mp4">
+                    <source src="taxi.ogv" type="video/ogg"> Your browser does not support the video tag.
+                </video>
+
+</div>
+
+                        </section>
+                        <section id="section-topline-3">
+
+
+
+<div id="custom-content" class="white-popup-blockSection">
+
+  <div class="col-sm-12 text-center">
+              
+     <div class="popup-contentSection">
+
+    <div class="row">
+                <div class="col-sm-12">
+                    <div class="headerUnderText">
+                        <h4 class="popup-title">Eating: Problem</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <p>Popular restaurants in Beijing are often busy. For instance, Peking Duck Restaurant always has a line in front of it. Customers have to get there before 11am; after 11am there is a long wait to acquire a table.  
+                    </p>
+                </div>
+            </div>
+        </div>
+
+<div class="popup-contentSection">
+
+       <div class="row">
+                <div class="col-sm-12">
+                    <div class="headerUnderText">
+                        <h4 class="popup-title">Solution: reservation assistant</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <p>A mobile restaurant reservation app that reduces crowds at restaurants while encouraging more in-depth engagement by tourists in the cities they’re visiting.
+                    </p>
+                </div>
+            </div>
+</div>
+
+  <video controls muted id="video" width="100%" height="auto" autoplay="true" loop="true">
+                    <source src="eatingShort.mp4" type="video/mp4">
+                    <source src="eatingShort.ogg" type="video/ogg"> Your browser does not support the video tag.
+                </video>
+
+<div class="row">
+                <div class="col-sm-12">
+                    <div class="headerUnderText">
+                        <h4 class="popup-title">Interface designs</h4>
+                    </div>
+                </div>
+            </div>
+
+ 
+
+     <div class="row">
+                <div class="col-sm-12 text-center">
+                    <!-- Put your image here -->
+                    <img src="../assets/images/tourismchina/eating.png" alt="">
+                </div>
+                <!-- .col -->
+            </div>
+        </div>
+
+
+
+    <div class="popup-contentBut">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <a href ="https://invis.io/387L4Z3NH#/165391891_Tier1-Eating" class="btn btn-custom-4">Interactive Prototype</a> </div>
+        </div>
+    </div>
+    
+     <video controls id="video" width="100%" height="auto">
+                    <source src="eatingFull.mp4" type="video/mp4">
+                    <source src="eatingFull.ogv" type="video/ogg"> Your browser does not support the video tag.
+                </video>
+
+</div>
+
+                        </section>
+
+
+                        
+                    </div><!-- /content -->
+                </div><!-- /tabs -->
+            </section>
+            
+            
+    
+            <!-- Related demos -->
+            
+        </div><!-- /container -->
+
+
+
+
+ <div class="popup-content">
+
+      <div class="row">
                 <div class="col-sm-12">
                     <div class="headerUnderText">
                         <h4 class="popup-title">Research and brainstorming</h4>
@@ -133,109 +452,19 @@ a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
             </div>
 
 
-    <div class="row">
-                <div class="col-sm-12">
-                    <div class="headerUnderText">
-                        <h4 class="popup-title">Deliverables</h4>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-12">
-                    <p>Below are the final deliverables for three of the identified problems in the following aspects of tourist experiences: <b> eating, transportation,</b> and <b>shopping</b>.
-                    </p>
-                </div>
-            </div>
 
-
-</div>
-
-</div>
-
-
-    <svg class="hidden">
-        
-            <defs>
-                <path id="tabshape" d="M80,60C34,53.5,64.417,0,0,0v60H80z"/>
-            </defs>
-        </svg>
-    
-        <div class="container">
-            <!-- Top Navigation -->
-
-
-            <section>
-                <div class="tabs tabs-style-topline">
-                    <nav>
-                        <ul>
-                            <li><a href="#section-topline-1" class="icon icon-coffee"><span>Eating</span></a></li>
-                            <li><a href="#section-topline-2" class="icon icon-car"><span>Transportation</span></a></li>
-                            <li><a href="#section-topline-3" class="icon icon-shop"><span>Shopping</span></a></li>
-                            
-                        </ul>
-                    </nav>
-                    <div class="content-wrap">
-                        <section id="section-topline-1">
-  
-  
-    <div class="row">
-                <div class="col-sm-12">
-                    <div class="headerUnderText">
-                        <h4 class="popup-title">Deliverables</h4>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-12">
-                    <p>Below are the final deliverables for three of the identified problems in the following aspects of tourist experiences: <b> eating, transportation,</b> and <b>shopping</b>.
-                    </p>
-                </div>
-            </div>
-
-
-
-                        </section>
-                        <section id="section-topline-2"><p>2</p></section>
-                        <section id="section-topline-3"><p>3</p></section>
-                        
-                    </div><!-- /content -->
-                </div><!-- /tabs -->
-            </section>
-</div>
-
-
-
-
-
-<div class="row">
-                <div class="col-sm-12">
-                    <div class="headerUnderText">
-                        <h4 class="popup-title">Eating</h4>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-12">
-                    <p><b>Problem:</b> Popular restaurants in Beijing are often busy. For instance, Peking Duck Restaurant always has a line in front of it. Customers have to get there before 11am; after 11am there is a long wait to acquire a table.  </p>
-
-                        <p><b>Solution:</b>  A mobile restaurant reservation app that reduces crowds at restaurants while encouraging more in-depth engagement by tourists in the cities they’re visiting. </p> 
-                </div>
-            </div>
-
-
+ </div>
 
 
      
+        
+    </div>
 
 
 
 
-
-
-
-
-
-      
+ 
+ 
 
 
     <div class="row">
@@ -246,33 +475,38 @@ a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
         </div>
     </div>
 
+               <ul class="portfolio-items-container">
 
-    <ul class="portfolio-items-container">
-           <li class="portfolio-item" data-groups="all video">
-                <figure>
-                    <img src="../assets/images/arcelik/istiklalTile.png" alt="">
-                    <figcaption>
-                        <a href="../arcelik"></a>
-                        <div class="caption-inner">
-                            <h4 class="portfolio-item-title">Experience Design</h4>
-                            <div class="portfolio-item-desc">Rethinking retail experience for millennials</div>
-                        </div>
-                    </figcaption>
-                </figure>
-            </li>
-         
-            <li class="portfolio-item" data-groups="all slideshow">
+
+
+
+      <li class="portfolio-item" data-groups="all slideshow">
                 <figure>
                     <img src="../assets/images/microsoft/splashTile.png">
                     <figcaption>
                         <a href="../microsoftgame"></a>
                         <div class="caption-inner">
                             <h4 class="portfolio-item-title">Game design</h4>
-                            <div class="portfolio-item-desc">Interning at Microsoft as a UX design intern</div>
+                            <div class="portfolio-item-desc">UX design internship at Microsoft </div>
                         </div>
                     </figcaption>
                 </figure>
             </li>
+
+            <li class="portfolio-item" data-groups="all video">
+                <figure>
+                    <img src="../assets/images/arcelik/istiklalTile.png" alt="">
+                    <figcaption>
+                        <a href="../arcelik"></a>
+                        <div class="caption-inner">
+                            <h4 class="portfolio-item-title">Experience Design</h4>
+                            <div class="portfolio-item-desc">Rethinking retail experience for <br> millennials in Turkey</div>
+                        </div>
+                    </figcaption>
+                </figure>
+            </li>
+         
+      
 
 
                  <li class="portfolio-item" data-groups="all video">
@@ -289,6 +523,20 @@ a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
             </li>
             
 
+
+               <li class="portfolio-item" data-groups="all slideshow">
+                <figure>
+                    <img src="../assets/images/tourismchina/cover.jpg">
+                    <figcaption>
+                        <a href="../tourismchina"></a>
+                        <div class="caption-inner">
+                            <h4 class="portfolio-item-title">concept design</h4>
+                            <div class="portfolio-item-desc">Innovating tourism in China with <br> MIT Design Lab</div>
+                        </div>
+                    </figcaption>
+                </figure>
+            </li>
+
             <li class="portfolio-item" data-groups="all slideshow">
                 <figure>
                     <img src="../assets/images/studySpot/studySpotTile.png">
@@ -301,6 +549,11 @@ a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
                     </figcaption>
                 </figure>
             </li>
+
+
+
+
+
        
             <li class="portfolio-item" data-groups="all image">
                 <figure>
@@ -356,54 +609,55 @@ a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
                     </figcaption>
                 </figure>
             </li>
-
-    </ul>
-    <div class="popup-content3030" style="text-align: center">
-        <div class="row">
-            <div class="col-sm-12">
-                <h5 class="popup-title">Side projects</h5>
+        </ul>
+        <div class="popup-content3030" style="text-align: center">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h5 class="popup-title">Side projects</h5>
+                </div>
             </div>
         </div>
-    </div>
-    <ul class="portfolio-items-container">
-        <li class="portfolio-item" data-groups="all image">
-            <figure>
-                <img src="../assets/images/walle/wallEcolver.png" alt="">
-                <figcaption>
-                    <a href="../walle"></a>
-                    <div class="caption-inner">
-                        <h4 class="portfolio-item-title">3D modelling</h4>
-                        <div class="portfolio-item-desc">Recreating Wall-E in Three.js</div>
-                    </div>
-                </figcaption>
-            </figure>
-        </li>
-        <li class="portfolio-item" data-groups="all image">
-            <figure>
-                <img src="../assets/images/ircj/ircjProjTile.png" alt="">
-                <figcaption>
-                    <a href="../ircj"></a>
-                    <div class="caption-inner">
-                        <h4 class="portfolio-item-title">Graphic + Print Design</h4>
-                        <div class="portfolio-item-desc">Designing the layout for IRC journal at Wellesley College</div>
-                    </div>
-                </figcaption>
-            </figure>
-        </li>
-        <li class="portfolio-item" data-groups="all image">
-            <figure>
-                <img src="../assets/images/vrTour/towerCourt600.png" alt="">
-                <figcaption>
-                    <a href="../wellesleytour"></a>
-                    <div class="caption-inner">
-                        <h4 class="portfolio-item-title">VR Tour Development</h4>
-                        <div class="portfolio-item-desc">Recreating a corner of Wellesley campus in Unity3D</div>
-                    </div>
-                </figcaption>
-            </figure>
-        </li>
-    </ul>
+        <ul class="portfolio-items-container">
+            <li class="portfolio-item" data-groups="all image">
+                <figure>
+                    <img src="../assets/images/walle/wallEcolver.png" alt="">
+                    <figcaption>
+                        <a href="../walle"></a>
+                        <div class="caption-inner">
+                            <h4 class="portfolio-item-title">3D modelling</h4>
+                            <div class="portfolio-item-desc">Recreating Wall-E in Three.js</div>
+                        </div>
+                    </figcaption>
+                </figure>
+            </li>
+            <li class="portfolio-item" data-groups="all image">
+                <figure>
+                    <img src="../assets/images/ircj/ircjProjTile.png" alt="">
+                    <figcaption>
+                        <a href="../ircj"></a>
+                        <div class="caption-inner">
+                            <h4 class="portfolio-item-title">Graphic + Print Design</h4>
+                            <div class="portfolio-item-desc">Designing the layout for IRC journal at <br> Wellesley College</div>
+                        </div>
+                    </figcaption>
+                </figure>
+            </li>
+            <li class="portfolio-item" data-groups="all image">
+                <figure>
+                    <img src="../assets/images/vrTour/towerCourt600.png" alt="">
+                    <figcaption>
+                        <a href="../wellesleytour"></a>
+                        <div class="caption-inner">
+                            <h4 class="portfolio-item-title">VR Tour Development</h4>
+                            <div class="portfolio-item-desc">Recreating a corner of Wellesley campus <br> in Unity3D</div>
+                        </div>
+                    </figcaption>
+                </figure>
+            </li>
+        </ul>
     <!-- .projects-container -->
+    <!-- Portfolio end -->
+    </div>
     <!-- Services start -->
     <div class="popup-contentBut">
         <div class="row">

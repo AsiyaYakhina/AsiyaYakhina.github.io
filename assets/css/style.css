@@ -723,7 +723,7 @@ transition: opacity 0.35s ease-out .25s, transform 0.35s ease-in .25s;
 
 .caption-inner .portfolio-item-title {
 	font-size: 17px;
-	font-weight: 400;
+	font-weight: 700;
 }
 
 .caption-inner .portfolio-item-desc {
@@ -1447,6 +1447,7 @@ h3 {
 h4 {
 
 	font-size: 14px;
+	font-weight: 700;
 }
 	#homeLabel {
 	padding-top: 40px;
