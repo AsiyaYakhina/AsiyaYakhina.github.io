@@ -2,47 +2,62 @@
 <html lang="en">
 
 <head>
-   <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>Asiya Yakhina</title>
-    <!-- CSS -->
-    <!-- Bootstrap core CSS -->
-    <link href="../assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <!-- Font Awesome CSS -->
-    <link href="../assets/css/font-awesome.min.css" rel="stylesheet" media="screen">
-    <!-- Elegant icons CSS -->
-    <link href="../assets/css/simple-line-icons.css" rel="stylesheet" media="screen">
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta name="description" content="">
+ <meta name="author" content="">
+ <title>Asiya Yakhina</title>
+ <!-- CSS -->
+ <!-- Bootstrap core CSS -->
+ <link href="../assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+ <!-- Font Awesome CSS -->
+ <link href="../assets/css/font-awesome.min.css" rel="stylesheet" media="screen">
+ <!-- Elegant icons CSS -->
+ <link href="../assets/css/simple-line-icons.css" rel="stylesheet" media="screen">
     <!--[if lte IE 7]>
         <script src="assets/js/icons-lte-ie7.js"></script>
-    <![endif]-->
-    <!-- Magnific-popup lightbox -->
-    <link href="../assets/css/magnific-popup.css" rel="stylesheet">
-    <!-- Owl Carousel -->
-    <link href="../assets/css/owl.theme.css" rel="stylesheet">
-    <link href="../assets/css/owl.carousel.css" rel="stylesheet">
-    <!-- Animate css -->
-    <link href="../assets/css/animate.css" rel="stylesheet">
-    <!-- Custom styles CSS -->
-    <link href="../assets/css/style.css" rel="stylesheet" media="screen">
-    <link rel="shortcut icon" href="../favicon2.png">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-    <script src="../sss/sss.min.js"></script>
-    <link rel="stylesheet" href="../sss/sss.css" type="text/css" media="all">
-    
-    	<script type="text/javascript">
-setTimeout(function(){var a=document.createElement("script");
-var b=document.getElementsByTagName("script")[0];
-a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0047/0335.js?"+Math.floor(new Date().getTime()/3600000);
-a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
-</script>
-    
-    <script>
-    jQuery(function($) {
-        $('.slider').sss();
-    });
+        <![endif]-->
+        <!-- Magnific-popup lightbox -->
+        <link href="../assets/css/magnific-popup.css" rel="stylesheet">
+        <!-- Owl Carousel -->
+        <link href="../assets/css/owl.theme.css" rel="stylesheet">
+        <link href="../assets/css/owl.carousel.css" rel="stylesheet">
+        <!-- Animate css -->
+        <link href="../assets/css/animate.css" rel="stylesheet">
+        <!-- Custom styles CSS -->
+        <link href="../assets/css/style.css" rel="stylesheet" media="screen">
+        <link rel="shortcut icon" href="../favicon2.png">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+        <script src="../sss/sss.min.js"></script>
+        <link rel="stylesheet" href="../sss/sss.css" type="text/css" media="all">
+
+        <script type="text/javascript">
+        setTimeout(function(){var a=document.createElement("script");
+            var b=document.getElementsByTagName("script")[0];
+            a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0047/0335.js?"+Math.floor(new Date().getTime()/3600000);
+            a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+        </script>
+
+        <script>
+        jQuery(function($) {
+            $('.slider').sss();
+        });
+        </script>
+
+
+        <script>
+        var myVideo = document.getElementById('video');
+    if (typeof myVideo.loop == 'boolean') { // loop supported
+        myVideo.loop = true;
+    } else { // loop property not supported
+        myVideo.on('ended', function() {
+            this.currentTime = 0;
+            this.play();
+        }, false);
+    }
+    myVideo.play();
     </script>
+
 </head>
 
 <body>
@@ -71,10 +86,10 @@ a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
     </header>
     <div id="custom-content" class="white-popup-block">
         <div class="row">
-            <div class="col-sm-12 text-center">
-                <!-- Put your image here -->
-                <img src="../assets/images/microsoft/splashCover.png" alt="">
-            </div>
+             <video id="video" width="100%" height="auto" autoplay="true" loop="true">
+        <source src="demoShort.mp4" type="video/mp4">
+            <source src="demoShort.ogg" type="video/ogg"> Your browser does not support the video tag.
+            </video>
             <!-- .col -->
         </div>
         <!-- .row -->
@@ -92,157 +107,344 @@ a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
             </div>
             <div class="row">
                 <div class="col-sm-12">
-                   <p> <b>My role:</b> designing the game mechanics, prototyping interaction, designing user workflows, designing the character and the game story, designing and producing visual assets for the game, user-testing.
-                    </p>
 
-                    <p>I worked on this project as a UX+UI designer along with four developers and a project manager. Throughout the internship we used agile scrum development methodology which entailed sprint planning, task weighting and delivering end-to-end user experiences at the end of each sprint.
-                    </p>
-                  
+             <p>   This is the project that I worked on during my internship at Microsoft Foundry. I was a UX designer in a team with four developers and one project manager. Together, we designed and developed the game that shipped in Beta on the Microsoft store. Throughout the internship we used agile scrum development methodology which entailed sprint planning, task weighting and delivering end-to-end user experiences at the end of each sprint.</p>
+
+<p><b>My role: </b> designing the game mechanics, prototyping interaction, designing user workflows, designing the character and the game story, designing and producing visual assets for the game, user-testing.
+
+</p>
 
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-12">
                     <div class="headerUnderText">
-                        <h4 class="popup-title">Final Outcome</h4>
+                        <h4 class="popup-title">Problem</h4>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-12">
-                    <p>Over twelve weeks we designed and developed a gesture-controlled mobile game thereby taking the project from a mere idea to the version that was ready to be shipped to the store. 
+                    <p>Most applications made for Microsoft Band are designed for health and activity tracking. However, the device’s sensors have untapped potential for a variety of other use cases. What could be the next out-of-the-box Microsoft Band experience?
+
+
                     </p>
                 </div>
             </div>
-        </div>
-      <div class="row">
-            <div class="col-sm-12">
-                <div class="slider" id="gameSlider">
-                    <img src="../assets/images/microsoft/1.jpeg" />
-                    <img src="../assets/images/microsoft/2.jpeg" />
-                    <img src="../assets/images/microsoft/3.jpeg" />
-                    <img src="../assets/images/microsoft/4.jpeg" />
-            
-                </div>
-            </div>
-        </div>
-            <div class="popup-content">
+
+
+
             <div class="row">
-<div class="col-sm-12">
-                   <p> The <a href="https://www.microsoft.com/en-us/store/games/fycpt/9nblggh1z3c5#app-details">beta version</a> has been released on the Microsoft Store, and has been mentioned in the <a href ="http://wmpoweruser.com/microsoft-is-testing-a-game-for-the-microsoft-band-in-the-windows-mobile-store/">following article</a>. Because the final version of the game hasn’t been published yet, I cannot disclose more details but will be able to go over my design process in person.
+                <div class="col-sm-12">
+                    <div class="headerUnderText">
+                        <h4 class="popup-title">Solution</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <p>The Band’s sensors, such as accelerometer and gyroscope capture enough data to detect certain gestures from the hand’s movement. Our solution proposes using Microsoft Band as a controller for a game displayed on the phone or tablet screen. The gaming experience includes three mini-games, activated by three different gestures. The mini-games repeat one after another, every time with increased challenge.
                     </p>
                 </div>
             </div>
-        </div>
 
 
-        <!-- .row -->
-    </div>
+     </div>
 
 
+          <div class="row">
+                <div class="col-sm-12">
+                    <div class="slider" id="gameSlider">
+                        <img src="../assets/images/microsoft/game1.png" />
+                        <img src="../assets/images/microsoft/game2.png" />
+                        <img src="../assets/images/microsoft/game3.png" />
+
+                    </div>
+                </div>
+            </div>
+
+
+   <div class="popup-content">
+ 
 
     <div class="row">
-        <div class="col-sm-12">
-            <div class="popup-headerWork">
-                <h2 class="popup-title">More Work</h2>
+                    <div class="col-sm-12">
+                        <div class= "headerUnderTitle">
+                            <h4 class="popup-title">User research</h4>
+                       </div>
+                    </div>
+                </div>
+
+
+     <div class="row">
+                    <div class="col-sm-12">
+                        <p>
+                      As a designer on the team I was in charge of conducting the initial user research and seeing how our concept proposition could match the needs of target user group. Surveys and interviews have revealed some useful trends among Microsoft Band users. 
+                      <ul>
+<li>Most of them identify themselves as casual gamers</li>
+<li>They enjoy fast-paced performance-oriented games</li>
+<li>They play games 10 -20 minutes on average</li>
+</ul>
+</p>
+<p>
+Having gathered and analyzed the data, we’ve proposed to create an experience composed of multiple mini-games activated by different gestures. This proposition was justified by the assumption that mini game stages would give the user the necessary sense of gratification even after playing for short periods of time. The idea of mini games also tied well with different gestures (one gesture for one mini game).
+
+                        </p>
+                    </div>
+                </div>
+
+
+  <div class="row">
+                    <div class="col-sm-12">
+                        <div class= "headerUnderTitle">
+                            <h4 class="popup-title">Initial prototyping</h4>
+                  
+                       </div>
+                    </div>
+                </div>
+  <div class="row">
+                    <div class="col-sm-12">
+                        <p>Before the story and the character of the game were fully developed, our first priority was to design the mechanics and gestures for every mini-game. I made the following low-fidelity mockups to illustrate our ideas at the time.
+
+                        </p>
+                    </div>
+                </div>
+
+
+
+</div>
+
+   <div class="row">
+                <div class="col-sm-12 text-center">
+                    <!-- Put your image here -->
+                    <img src="../assets/images/microsoft/mockup.png" alt="">
+                </div>
+                <!-- .col -->
+            </div>
+
+
+   <div class="popup-content">
+
+
+  <div class="row">
+                    <div class="col-sm-12">
+                        <div class="headerUnderText">
+                            <h4 class="popup-title">Story and character design</h4>
+                        </div>
+                    </div>
+                </div>
+    <div class="row">
+                    <div class="col-sm-12">
+                        <p>Inspired by color books for adults, the game invites the player in a virtual color book with a cute paint droplet as a main character. The animations below are short extracts from the intro cutscene to the game that I created.
+
+                        </p>
+                    </div>
+                </div>
+</div>
+
+
+<div = class="vidContainer">
+     <video id="video" width="60%" height="auto" autoplay="true" loop="true">
+        <source src="part0.mp4" type="video/mp4">
+            <source src="part0.ogg" type="video/ogg"> Your browser does not support the video tag.
+            </video>
+        </div>
+
+
+ <div class="popup-content">
+ <div class="row">
+                    <div class="col-sm-12">
+
+                        <p>
+
+I was responsible for designing and producing all animations and visual assets for the game. When designing and animating the Droplet, I aimed to create a lively and jumpy character that the player could relate to. Although it doesn’t have any facial features, I animated the Droplet’s body, hands, and legs to create a sense of a fun little cartoon creature.
+                        </p>
+                        <p>The droplet of paint needs to overcome various obstacles and challenges to ultimately achieve the goal of coloring in a drawing. The player’s job is to help the paint droplet through all the stages of the journey.
+
+                        </p>
+                    </div>
+                </div>
+ </div>
+
+<div = class="vidContainer">
+              <video id="video" width="60%" height="auto" autoplay="true" loop="true">
+        <source src="part3.mp4" type="video/mp4">
+            <source src="part3.ogg" type="video/ogg"> Your browser does not support the video tag.
+            </video>
+</div>
+
+   <div class="popup-content">
+
+
+  <div class="row">
+                    <div class="col-sm-12">
+                        <div class="headerUnderText">
+                            <h4 class="popup-title">UX challenges: communicating gestures</h4>
+                        </div>
+                    </div>
+                </div>
+
+ <div class="row">
+                    <div class="col-sm-12">
+                        <p>One of the key UX design challenges I tackled in this project was the effective communication of gestures. Microsoft Band is not commonly used as a gesture controller, which is why users needed a comprehensive tutorial to be able to start the gaming experience easily and smoothly. </p>
+
+<p>I worked on multiple iterations and user-tested my designs weekly before I could find the right solution to the problem. Neither text instructions, nor static illustrations of gestures seemed to work.</p>
+
+<p> After many playtests I determined that the <b> most intuitive way to teach the player a certain gesture</b>, is to provide an <b>animated illustration </b> of the gesture and let the player tap the screen to indicate that they are ready to play after processing the instructions completely.
+
+                        </p>
+                    </div>
+                </div>
+
+</div>
+
+   <div class="row">
+                <div class="col-sm-12 text-center">
+                    <!-- Put your image here -->
+                    <img src="../assets/images/microsoft/instruction.png" alt="">
+                </div>
+                <!-- .col -->
+            </div>
+
+
+
+   <div class="popup-content">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="headerUnderText">
+                            <h4 class="popup-title">Final Outcome</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <p>Over twelve weeks we designed and developed a gesture-controlled mobile game thereby taking the project from a mere idea to the version that was ready to be shipped to the store. 
+                        </p>
+
+                        <p>
+                            Below is a full video of the game demo.
+                        </p>
+                    </div>
+                </div>
+            </div>
+   
+
+
+
+
+    <video controls="controls"  poster="fullVid/demoVid.jpg" style="width:100%" title="demoVid">
+<source src="fullVid/demoVid.m4v" type="video/mp4" />
+<source src="fullVid/demoVid.ogv" type="video/ogg" />
+</video>
+
+
+
+            <!-- .row -->
+        </div>
+
+
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="popup-headerWork">
+                    <h2 class="popup-title">More Work</h2>
+                </div>
             </div>
         </div>
-    </div>
-      <ul class="portfolio-items-container">
+        <ul class="portfolio-items-container">
 
 
 
 
-      <li class="portfolio-item" data-groups="all slideshow">
-                <figure>
-                    <img src="../assets/images/microsoft/splashTile.png">
-                    <figcaption>
-                        <a href="../microsoftgame"></a>
-                        <div class="caption-inner">
-                            <h4 class="portfolio-item-title">Game design</h4>
-                            <div class="portfolio-item-desc">UX design internship at Microsoft </div>
-                        </div>
+          <li class="portfolio-item" data-groups="all slideshow">
+            <figure>
+                <img src="../assets/images/microsoft/splashTile.png">
+                <figcaption>
+                    <a href="../microsoftgame"></a>
+                    <div class="caption-inner">
+                        <h4 class="portfolio-item-title">Game design</h4>
+                        <div class="portfolio-item-desc">UX design internship at Microsoft </div>
+                    </div>
+                </figcaption>
+            </figure>
+        </li>
+
+        <li class="portfolio-item" data-groups="all video">
+            <figure>
+                <img src="../assets/images/arcelik/istiklalTile.png" alt="">
+                <figcaption>
+                    <a href="../arcelik"></a>
+                    <div class="caption-inner">
+                        <h4 class="portfolio-item-title">Experience Design</h4>
+                        <div class="portfolio-item-desc">Rethinking retail experience for <br> millennials in Turkey</div>
+                    </div>
+                </figcaption>
+            </figure>
+        </li>
+
+        <li class="portfolio-item" data-groups="all slideshow">
+            <figure>
+                <img src="../assets/images/tourismchina/cover.jpg">
+                <figcaption>
+                    <a href="../tourismchina"></a>
+                    <div class="caption-inner">
+                        <h4 class="portfolio-item-title">concept design</h4>
+                        <div class="portfolio-item-desc">Innovating tourism in China with <br> MIT Design Lab</div>
+                    </div>
+                </figcaption>
+            </figure>
+        </li>
+
+
+        <li class="portfolio-item" data-groups="all video">
+            <figure>
+                <img src="../assets/images/blockedOnline/blockedOnlineTile-01.png" alt="">
+                <figcaption>
+                    <a href="../blockedonline"></a>
+                    <div class="caption-inner">
+                        <h4 class="portfolio-item-title">Web Design</h4>
+                        <div class="portfolio-item-desc">Blocked Online: Unveiling internet censorship</div>
+                    </div>
+                </figcaption>
+            </figure>
+        </li>
+
+
+
+
+        <li class="portfolio-item" data-groups="all slideshow">
+            <figure>
+                <img src="../assets/images/studySpot/studySpotTile.png">
+                <figcaption>
+                    <a href="../studyspot"></a>
+                    <div class="caption-inner">
+                        <h4 class="portfolio-item-title">mobile app design + development</h4>
+                        <div class="portfolio-item-desc">Helping students find their perfect study spot</div>
+                    </div>
+                </figcaption>
+            </figure>
+        </li>
+
+
+
+
+
+
+        <li class="portfolio-item" data-groups="all image">
+            <figure>
+                <img src="../assets/images/VRtile.jpg" alt="">
+                <figcaption>
+                    <a href="../research"></a>
+                    <div class="caption-inner">
+                        <h4 class="portfolio-item-title">Research + Prototype Design</h4>
+                        <div class="portfolio-item-desc">Exploring collaborative spatial design
+                            <br>in a virtual environment</div>
+                        </a>
                     </figcaption>
                 </figure>
             </li>
 
-            <li class="portfolio-item" data-groups="all video">
-                <figure>
-                    <img src="../assets/images/arcelik/istiklalTile.png" alt="">
-                    <figcaption>
-                        <a href="../arcelik"></a>
-                        <div class="caption-inner">
-                            <h4 class="portfolio-item-title">Experience Design</h4>
-                            <div class="portfolio-item-desc">Rethinking retail experience for <br> millennials in Turkey</div>
-                        </div>
-                    </figcaption>
-                </figure>
-            </li>
-         
-      
-
-
-                 <li class="portfolio-item" data-groups="all video">
-                <figure>
-                    <img src="../assets/images/blockedOnline/blockedOnlineTile-01.png" alt="">
-                    <figcaption>
-                        <a href="../blockedonline"></a>
-                        <div class="caption-inner">
-                            <h4 class="portfolio-item-title">Web Design</h4>
-                            <div class="portfolio-item-desc">Blocked Online: Unveiling internet censorship</div>
-                        </div>
-                    </figcaption>
-                </figure>
-            </li>
-            
-
-
-               <li class="portfolio-item" data-groups="all slideshow">
-                <figure>
-                    <img src="../assets/images/tourismchina/cover.jpg">
-                    <figcaption>
-                        <a href="../tourismchina"></a>
-                        <div class="caption-inner">
-                            <h4 class="portfolio-item-title">concept design</h4>
-                            <div class="portfolio-item-desc">Innovating tourism in China with <br> MIT Design Lab</div>
-                        </div>
-                    </figcaption>
-                </figure>
-            </li>
-
-            <li class="portfolio-item" data-groups="all slideshow">
-                <figure>
-                    <img src="../assets/images/studySpot/studySpotTile.png">
-                    <figcaption>
-                        <a href="../studyspot"></a>
-                        <div class="caption-inner">
-                            <h4 class="portfolio-item-title">mobile app design + development</h4>
-                            <div class="portfolio-item-desc">Helping students find their perfect study spot</div>
-                        </div>
-                    </figcaption>
-                </figure>
-            </li>
-
-
-
-
-
-       
             <li class="portfolio-item" data-groups="all image">
-                <figure>
-                    <img src="../assets/images/VRtile.jpg" alt="">
-                    <figcaption>
-                        <a href="../research"></a>
-                        <div class="caption-inner">
-                            <h4 class="portfolio-item-title">Research + Prototype Design</h4>
-                            <div class="portfolio-item-desc">Exploring collaborative spatial design
-                                <br>in a virtual environment</div>
-                            </a>
-                    </figcaption>
-                </figure>
-            </li>
-
-     <li class="portfolio-item" data-groups="all image">
                 <figure>
                     <img src="../assets/images/keepaway/cover.png" alt="">
                     <figcaption>
@@ -250,7 +452,7 @@ a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
                         <div class="caption-inner">
                             <h4 class="portfolio-item-title">dog toy design</h4>
                             <div class="portfolio-item-desc">KeepAway: distracting your dog from <br>destroying your house</div>
-                            </a>
+                        </a>
                     </figcaption>
                 </figure>
             </li>
@@ -266,89 +468,89 @@ a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
                             <h4 class="portfolio-item-title">Brainstorm Facilitation</h4>
                             <div class="portfolio-item-desc">Using design thinking principles
                                 <br> to lead creative ideation meetings</div>
-                        </div>
-                    </figcaption>
-                </figure>
-            </li>
-            <li class="portfolio-item" data-groups="all image">
-                <figure>
-                    <img src="../assets/images/lastdinosaur/dinoTile1.png" alt="">
-                    <figcaption>
-                        <a href="../lastdinosaur"></a>
-                        <div class="caption-inner">
-                            <h4 class="portfolio-item-title">Game design + development</h4>
-                            <div class="portfolio-item-desc">Save the dinosaur from extinction</div>
-                        </div>
-                    </figcaption>
-                </figure>
-            </li>
-        </ul>
-        <div class="popup-content3030" style="text-align: center">
-            <div class="row">
-                <div class="col-sm-12">
-                    <h5 class="popup-title">Side projects</h5>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="portfolio-item" data-groups="all image">
+                    <figure>
+                        <img src="../assets/images/lastdinosaur/dinoTile1.png" alt="">
+                        <figcaption>
+                            <a href="../lastdinosaur"></a>
+                            <div class="caption-inner">
+                                <h4 class="portfolio-item-title">Game design + development</h4>
+                                <div class="portfolio-item-desc">Save the dinosaur from extinction</div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </li>
+            </ul>
+            <div class="popup-content3030" style="text-align: center">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h5 class="popup-title">Side projects</h5>
+                    </div>
                 </div>
             </div>
-        </div>
-        <ul class="portfolio-items-container">
-            <li class="portfolio-item" data-groups="all image">
-                <figure>
-                    <img src="../assets/images/walle/wallEcolver.png" alt="">
-                    <figcaption>
-                        <a href="../walle"></a>
-                        <div class="caption-inner">
-                            <h4 class="portfolio-item-title">3D modelling</h4>
-                            <div class="portfolio-item-desc">Recreating Wall-E in Three.js</div>
-                        </div>
-                    </figcaption>
-                </figure>
-            </li>
-            <li class="portfolio-item" data-groups="all image">
-                <figure>
-                    <img src="../assets/images/ircj/ircjProjTile.png" alt="">
-                    <figcaption>
-                        <a href="../ircj"></a>
-                        <div class="caption-inner">
-                            <h4 class="portfolio-item-title">Graphic + Print Design</h4>
-                            <div class="portfolio-item-desc">Designing the layout for IRC journal at <br> Wellesley College</div>
-                        </div>
-                    </figcaption>
-                </figure>
-            </li>
-            <li class="portfolio-item" data-groups="all image">
-                <figure>
-                    <img src="../assets/images/vrTour/towerCourt600.png" alt="">
-                    <figcaption>
-                        <a href="../wellesleytour"></a>
-                        <div class="caption-inner">
-                            <h4 class="portfolio-item-title">VR Tour Development</h4>
-                            <div class="portfolio-item-desc">Recreating a corner of Wellesley campus <br> in Unity3D</div>
-                        </div>
-                    </figcaption>
-                </figure>
-            </li>
-        </ul>
-    <!-- .projects-container -->
-    <!-- Services start -->
-    <div class="popup-contentBut">
-        <div class="row">
-            <div class="col-sm-12 text-center">
-                <a href="mailto:hello@asiya.design" class="btn btn-custom-4">hello@asiya.design</a> </div>
-        </div>
-    </div>
-    <script src="../assets/js/jquery-1.11.1.min.js"></script>
-    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="../assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="../assets/js/imagesloaded.pkgd.js"></script>
-    <script src="../assets/js/jquery.shuffle.min.js"></script>
-    <script src="../assets/js/twitterFetcher_min.js"></script>
-    <script src="../assets/js/owl.carousel.min.js"></script>
-    <script src="../assets/js/jquery.fitvids.js"></script>
-    <script src="../assets/js/jquery.sticky.js"></script>
-    <script src="../assets/js/wow.min.js"></script>
-    <!-- Custom scripts -->
-    <script src="../assets/js/custom.js"></script>
-    <script src="../assets/js/custom-shuffle-init.js"></script>
-</body>
+            <ul class="portfolio-items-container">
+                <li class="portfolio-item" data-groups="all image">
+                    <figure>
+                        <img src="../assets/images/walle/wallEcolver.png" alt="">
+                        <figcaption>
+                            <a href="../walle"></a>
+                            <div class="caption-inner">
+                                <h4 class="portfolio-item-title">3D modelling</h4>
+                                <div class="portfolio-item-desc">Recreating Wall-E in Three.js</div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="portfolio-item" data-groups="all image">
+                    <figure>
+                        <img src="../assets/images/ircj/ircjProjTile.png" alt="">
+                        <figcaption>
+                            <a href="../ircj"></a>
+                            <div class="caption-inner">
+                                <h4 class="portfolio-item-title">Graphic + Print Design</h4>
+                                <div class="portfolio-item-desc">Designing the layout for IRC journal at <br> Wellesley College</div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="portfolio-item" data-groups="all image">
+                    <figure>
+                        <img src="../assets/images/vrTour/towerCourt600.png" alt="">
+                        <figcaption>
+                            <a href="../wellesleytour"></a>
+                            <div class="caption-inner">
+                                <h4 class="portfolio-item-title">VR Tour Development</h4>
+                                <div class="portfolio-item-desc">Recreating a corner of Wellesley campus <br> in Unity3D</div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </li>
+            </ul>
+            <!-- .projects-container -->
+            <!-- Services start -->
+            <div class="popup-contentBut">
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <a href="mailto:hello@asiya.design" class="btn btn-custom-4">hello@asiya.design</a> </div>
+                    </div>
+                </div>
+                <script src="../assets/js/jquery-1.11.1.min.js"></script>
+                <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+                <script src="../assets/js/jquery.magnific-popup.min.js"></script>
+                <script src="../assets/js/imagesloaded.pkgd.js"></script>
+                <script src="../assets/js/jquery.shuffle.min.js"></script>
+                <script src="../assets/js/twitterFetcher_min.js"></script>
+                <script src="../assets/js/owl.carousel.min.js"></script>
+                <script src="../assets/js/jquery.fitvids.js"></script>
+                <script src="../assets/js/jquery.sticky.js"></script>
+                <script src="../assets/js/wow.min.js"></script>
+                <!-- Custom scripts -->
+                <script src="../assets/js/custom.js"></script>
+                <script src="../assets/js/custom-shuffle-init.js"></script>
+            </body>
 
-</html>
+            </html>

@@ -1059,6 +1059,11 @@ button.mfp-close {
 	z-index: 998;
 }
 
+.vidContainer {
+
+	text-align: center;
+}
+
 .white-popup-block2 {
 padding-top: 20px;
 }
@@ -1254,6 +1259,13 @@ padding-top: 20px;
 	width: 800px;
 	height: 597px;
 }
+
+.headerUnderTitle {
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 25px;
+
+}
 /* ---------------------------------------------- /*
  * Media
 /* ---------------------------------------------- */
@@ -1305,6 +1317,16 @@ padding-top: 20px;
 	margin-bottom: 25px;
 
 }
+
+
+.headerUnderTitle {
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 25px;
+
+}
+
+
 }
 
 
@@ -1375,6 +1397,13 @@ body {
 	text-align: center;
 	margin-top: 35px;
 	margin-bottom: 25px;
+
+}
+
+.headerUnderTitle {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 8px;
 
 }
 
@@ -1495,6 +1524,13 @@ font-size: 13px;
 	text-align: center;
 	margin-top: 20px;
 	margin-bottom: 10px;
+
+}
+
+.headerUnderTitle {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 8px;
 
 }
 
