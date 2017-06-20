@@ -1,0 +1,141 @@
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>The HTML5 Herald</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="style.css">
+ <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+
+<body>
+
+
+<div id="container">
+<div id="div1">
+</div>
+<div id="div2">
+</div>
+<div id="div3">
+</div>
+<div id="div4">
+</div>
+</div>
+
+
+
+
+<script>
+var imgNamesBL = ["0-bl.jpg","1-bl.jpg","2-bl.jpg","3-bl.jpg","4-bl.jpg"];
+var imgNamesTL = ["0-tl.jpg","1-tl.jpg", "2-tl.jpg","3-tl.jpg","4-tl.jpg"];
+var imgNamesTR = ["0-tr.jpg","1-tr.jpg", "2-tr.jpg","3-tr.jpg","4-tr.jpg"];
+var imgNamesBR = ["0-br.jpg","1-br.jpg", "2-br.jpg","3-br.jpg", "4-br.jpg"];
+
+ var counter1 = 0;
+ var counter2 = 3;
+ var counter3 = 2;
+ var counter4 = 1;
+
+$( "#div1" )
+  .mouseup(function() {
+ //  	var i;
+	// for (i = 0; i < 3; ++i) {
+ //    console.log("hey");
+ //    var urlString = "url(";
+ //    var jpgString = "-tl.jpg)";
+ //    $( this ).css("background-image", urlString.concat(i,jpgString)); 
+ //    console.log(urlString.concat(i,jpgString));
+
+ var urlString = "url(";
+ var jpgString = "-tl.jpg)";
+    $( this ).css("background-image", urlString.concat(counter1,jpgString));
+    
+    counter1=counter1+1;
+   
+    if (counter1==5) {
+    	counter1=0;
+    }
+  	
+  })
+
+
+
+  $( "#div2" )
+  .mouseup(function() {
+ //  	var i;
+	// for (i = 0; i < 3; ++i) {
+ //    console.log("hey");
+ //    var urlString = "url(";
+ //    var jpgString = "-tl.jpg)";
+ //    $( this ).css("background-image", urlString.concat(i,jpgString)); 
+ //    console.log(urlString.concat(i,jpgString));
+
+ var urlString = "url(";
+ var jpgString = "-tr.jpg)";
+    $( this ).css("background-image", urlString.concat(counter2,jpgString));
+    
+    counter2=counter2+1;
+   
+    if (counter2==5) {
+    	counter2=0;
+    }
+  	
+  })
+
+
+
+  $( "#div3" )
+  .mouseup(function() {
+ //  	var i;
+	// for (i = 0; i < 3; ++i) {
+ //    console.log("hey");
+ //    var urlString = "url(";
+ //    var jpgString = "-tl.jpg)";
+ //    $( this ).css("background-image", urlString.concat(i,jpgString)); 
+ //    console.log(urlString.concat(i,jpgString));
+
+ var urlString = "url(";
+ var jpgString = "-bl.jpg)";
+    $( this ).css("background-image", urlString.concat(counter3,jpgString));
+    
+    counter3=counter3+1;
+   
+    if (counter3==5) {
+    	counter3=0;
+    }
+  	
+  })
+
+
+
+  $( "#div4" )
+  .mouseup(function() {
+ //  	var i;
+	// for (i = 0; i < 3; ++i) {
+ //    console.log("hey");
+ //    var urlString = "url(";
+ //    var jpgString = "-tl.jpg)";
+ //    $( this ).css("background-image", urlString.concat(i,jpgString)); 
+ //    console.log(urlString.concat(i,jpgString));
+
+ var urlString = "url(";
+ var jpgString = "-br.jpg)";
+    $( this ).css("background-image", urlString.concat(counter4,jpgString));
+    
+    counter4=counter4+1;
+   
+    if (counter4==5) {
+    	counter4=0;
+    }
+  	
+  })
+ 
+</script>
+
+</body>
+
+</html>
+
